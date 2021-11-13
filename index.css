@@ -1,0 +1,46 @@
+body{
+    padding: 0;
+    margin: 0;
+    color: rgb(0, 0, 0);
+    background-image: url(https://img.elo7.com.br/product/zoom/37F98E4/quadro-pintura-jesus-bom-pastor-tela-45x60cm-original-biblia-sagrada.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+nav{
+    background-color: black;
+    height: 7%;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    border-radius: 0px 0px 15px 15px;
+}
+ul{
+    width: 10%;
+    justify-content: right;
+}
+
+.livros{
+    height: 100vh;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+   
+}
+.livro-gênesis{
+    margin-top: 50px;
+}
+.livro-gênesis img{
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+}
+.audioBook{
+    background-color: rgba(128, 128, 128, 0.171);
+    text-align: center;
+    border-radius: 0px 0px 30px 30px;
+}
+audio{
+    width: 80%;
+}
