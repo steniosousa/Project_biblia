@@ -15,10 +15,19 @@ nav{
     top: 0;
     position: fixed;
     border-radius: 0px 0px 15px 15px;
+    
 }
 ul{
     width: 10%;
-    justify-content: right;
+    
+}
+ul li{
+    text-align: center;
+}
+ul li a{
+    color: white;
+    border:none;
+    font-family: 'Roboto', sans-serif;
 }
 
 .livros{
@@ -40,6 +49,11 @@ ul{
     background-color: rgba(128, 128, 128, 0.171);
     text-align: center;
     border-radius: 0px 0px 30px 30px;
+}
+.audioBook p {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
 }
 audio{
     width: 80%;
